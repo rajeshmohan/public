@@ -68,8 +68,6 @@ ip netns exec west ip route add default via 172.16.1.1
 ip netns exec east ip route add default via 172.16.2.1
 
 #start openvpn
-ip netns exec east openvpn --config config/east-server.config
-ip netns exec west openvpn --config config/west-user.config
-
-
+ip netns exec east openvpn --tls-server --config config/east-server.config
+ip netns exec west openvpn --tls-client --config config/west-user.config
 

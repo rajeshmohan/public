@@ -1,0 +1,74 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, ST=CA, L=SanFrancisco, O=Openstack, OU=VPNaaS, CN=SSLVPN-CA/name=SSLVPN-CA/emailAddress=rajesh.mlists@gmail.com
+        Validity
+            Not Before: Nov 15 03:43:42 2013 GMT
+            Not After : Nov 13 03:43:42 2023 GMT
+        Subject: C=US, ST=CA, L=SanFrancisco, O=Openstack, OU=VPNaaS, CN=west-user1/name=westuser1/emailAddress=rajesh.mlists@gmail.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:a8:2f:cd:71:f3:b6:76:25:ca:57:23:dc:51:8d:
+                    5e:81:93:bc:86:b9:36:33:fa:36:8b:d0:f8:a5:4d:
+                    aa:e7:e8:54:4f:3a:5d:8f:22:ce:05:55:a3:49:b8:
+                    52:9b:07:6e:d5:7c:ea:ce:5e:af:b8:38:f8:e0:0a:
+                    76:d1:63:4e:22:ac:71:d1:69:62:1a:f7:9b:b7:c6:
+                    04:6f:78:2c:5c:d4:4d:79:0f:6e:f4:1d:bc:a7:ad:
+                    0a:b3:ba:6a:89:7d:c4:1d:1f:7c:ae:7f:d2:a4:e7:
+                    b7:db:4b:0f:3c:1b:71:86:17:c2:b1:91:dd:d4:bf:
+                    ab:db:87:81:a0:54:02:46:b9
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                25:11:98:2F:8C:23:1B:0D:99:A3:3E:A8:F7:48:EB:85:3C:FB:64:B5
+            X509v3 Authority Key Identifier: 
+                keyid:AD:5E:C7:43:64:7B:0F:11:20:3C:C7:3A:11:DB:00:D5:CA:4A:07:BF
+                DirName:/C=US/ST=CA/L=SanFrancisco/O=Openstack/OU=VPNaaS/CN=SSLVPN-CA/name=SSLVPN-CA/emailAddress=rajesh.mlists@gmail.com
+                serial:A4:56:9E:E9:77:34:99:EB
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+         8e:88:32:bd:17:03:2c:fc:8f:c8:78:df:2c:67:1b:c2:c4:2d:
+         bc:a9:a2:9e:63:ee:db:fd:d0:a8:5c:c6:9f:36:19:1c:9a:fc:
+         73:33:6a:af:4b:29:68:0a:a1:6b:f3:74:7a:b6:76:12:e6:bb:
+         a2:02:9d:f2:94:f9:07:e5:19:e2:ad:04:ef:86:e4:60:54:c2:
+         51:2f:92:ec:56:85:e2:2e:fc:dc:61:f2:00:db:06:cf:4a:fa:
+         ee:7d:95:04:6d:b6:ae:b7:30:92:73:fc:77:b5:84:5d:bc:76:
+         66:61:78:29:ee:5a:b5:5d:18:bf:af:36:0d:bd:97:f1:8d:87:
+         3b:36
+-----BEGIN CERTIFICATE-----
+MIIEJDCCA42gAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBpjELMAkGA1UEBhMCVVMx
+CzAJBgNVBAgTAkNBMRUwEwYDVQQHEwxTYW5GcmFuY2lzY28xEjAQBgNVBAoTCU9w
+ZW5zdGFjazEPMA0GA1UECxMGVlBOYWFTMRIwEAYDVQQDEwlTU0xWUE4tQ0ExEjAQ
+BgNVBCkTCVNTTFZQTi1DQTEmMCQGCSqGSIb3DQEJARYXcmFqZXNoLm1saXN0c0Bn
+bWFpbC5jb20wHhcNMTMxMTE1MDM0MzQyWhcNMjMxMTEzMDM0MzQyWjCBpzELMAkG
+A1UEBhMCVVMxCzAJBgNVBAgTAkNBMRUwEwYDVQQHEwxTYW5GcmFuY2lzY28xEjAQ
+BgNVBAoTCU9wZW5zdGFjazEPMA0GA1UECxMGVlBOYWFTMRMwEQYDVQQDEwp3ZXN0
+LXVzZXIxMRIwEAYDVQQpEwl3ZXN0dXNlcjExJjAkBgkqhkiG9w0BCQEWF3JhamVz
+aC5tbGlzdHNAZ21haWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCo
+L81x87Z2JcpXI9xRjV6Bk7yGuTYz+jaL0PilTarn6FRPOl2PIs4FVaNJuFKbB27V
+fOrOXq+4OPjgCnbRY04irHHRaWIa95u3xgRveCxc1E15D270HbynrQqzumqJfcQd
+H3yuf9Kk57fbSw88G3GGF8Kxkd3Uv6vbh4GgVAJGuQIDAQABo4IBXTCCAVkwCQYD
+VR0TBAIwADAtBglghkgBhvhCAQ0EIBYeRWFzeS1SU0EgR2VuZXJhdGVkIENlcnRp
+ZmljYXRlMB0GA1UdDgQWBBQlEZgvjCMbDZmjPqj3SOuFPPtktTCB2wYDVR0jBIHT
+MIHQgBStXsdDZHsPESA8xzoR2wDVykoHv6GBrKSBqTCBpjELMAkGA1UEBhMCVVMx
+CzAJBgNVBAgTAkNBMRUwEwYDVQQHEwxTYW5GcmFuY2lzY28xEjAQBgNVBAoTCU9w
+ZW5zdGFjazEPMA0GA1UECxMGVlBOYWFTMRIwEAYDVQQDEwlTU0xWUE4tQ0ExEjAQ
+BgNVBCkTCVNTTFZQTi1DQTEmMCQGCSqGSIb3DQEJARYXcmFqZXNoLm1saXN0c0Bn
+bWFpbC5jb22CCQCkVp7pdzSZ6zATBgNVHSUEDDAKBggrBgEFBQcDAjALBgNVHQ8E
+BAMCB4AwDQYJKoZIhvcNAQEFBQADgYEAjogyvRcDLPyPyHjfLGcbwsQtvKminmPu
+2/3QqFzGnzYZHJr8czNqr0spaAqha/N0erZ2Eua7ogKd8pT5B+UZ4q0E74bkYFTC
+US+S7FaF4i783GHyANsGz0r67n2VBG22rrcwknP8d7WEXbx2ZmF4Ke5atV0Yv682
+Db2X8Y2HOzY=
+-----END CERTIFICATE-----

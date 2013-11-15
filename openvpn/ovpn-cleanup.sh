@@ -23,10 +23,7 @@
 #
 
 # kill openvpn
-ip netns exec east killall -9 openvpn
-ip netns exec west killall -9 openvpn
-
-
+killall -9 openvpn
 
 #Create namespaces
 ip netns del west

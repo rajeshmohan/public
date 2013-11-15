@@ -1,0 +1,76 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, ST=CA, L=SanFrancisco, O=Openstack, OU=VPNaaS, CN=SSLVPN-CA/name=SSLVPN-CA/emailAddress=rajesh.mlists@gmail.com
+        Validity
+            Not Before: Nov 15 03:42:42 2013 GMT
+            Not After : Nov 13 03:42:42 2023 GMT
+        Subject: C=US, ST=CA, L=SanFrancisco, O=Openstack, OU=VPNaaS, CN=east-server/name=east/emailAddress=rajesh.mlists@gmail.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:d7:6d:94:e9:c9:bf:8e:ce:95:28:9c:aa:1c:30:
+                    d2:2b:22:f6:e3:93:07:59:53:d3:6a:82:c4:9c:6e:
+                    f8:52:f8:0e:fd:7f:10:d3:1f:d2:6a:ab:47:8d:85:
+                    e7:20:96:82:55:b3:04:ff:52:10:97:17:4f:06:73:
+                    41:d0:6f:e7:f0:4b:f7:a2:98:3c:16:aa:1b:ec:46:
+                    a1:49:ba:83:01:0f:e0:ed:95:35:c7:45:db:77:a4:
+                    37:27:2f:cd:a3:81:2a:c2:d9:bb:d2:4d:c2:a0:2f:
+                    4d:18:22:cd:00:20:0d:ca:11:02:2a:95:3c:f6:d0:
+                    c4:18:97:48:5c:2b:5f:02:e9
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Server
+            Netscape Comment: 
+                Easy-RSA Generated Server Certificate
+            X509v3 Subject Key Identifier: 
+                DF:B5:2F:8D:08:63:B6:DD:59:89:16:CC:1B:EB:18:4A:BC:D2:9B:17
+            X509v3 Authority Key Identifier: 
+                keyid:AD:5E:C7:43:64:7B:0F:11:20:3C:C7:3A:11:DB:00:D5:CA:4A:07:BF
+                DirName:/C=US/ST=CA/L=SanFrancisco/O=Openstack/OU=VPNaaS/CN=SSLVPN-CA/name=SSLVPN-CA/emailAddress=rajesh.mlists@gmail.com
+                serial:A4:56:9E:E9:77:34:99:EB
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+    Signature Algorithm: sha1WithRSAEncryption
+         18:5b:27:88:a2:61:2f:c7:36:83:f8:c5:9c:c7:07:8f:6d:01:
+         22:e5:66:91:0a:64:fa:41:aa:81:08:d8:1e:bf:4a:9f:ba:4d:
+         3a:4c:26:8b:37:26:32:b0:7a:db:0b:ef:fe:14:4a:59:38:7d:
+         af:bc:fb:9f:db:b8:57:b0:81:85:3f:12:ad:99:33:89:49:cf:
+         d5:fd:62:c3:f9:f3:41:5b:53:2a:ee:a4:bf:2e:75:16:c5:e2:
+         3e:c1:0f:d9:c2:6c:cb:3a:73:1c:74:12:35:3f:ad:c7:71:69:
+         6b:07:80:84:82:ba:74:b0:55:93:f5:d3:b2:a0:d3:06:39:26:
+         b8:84
+-----BEGIN CERTIFICATE-----
+MIIEOjCCA6OgAwIBAgIBATANBgkqhkiG9w0BAQUFADCBpjELMAkGA1UEBhMCVVMx
+CzAJBgNVBAgTAkNBMRUwEwYDVQQHEwxTYW5GcmFuY2lzY28xEjAQBgNVBAoTCU9w
+ZW5zdGFjazEPMA0GA1UECxMGVlBOYWFTMRIwEAYDVQQDEwlTU0xWUE4tQ0ExEjAQ
+BgNVBCkTCVNTTFZQTi1DQTEmMCQGCSqGSIb3DQEJARYXcmFqZXNoLm1saXN0c0Bn
+bWFpbC5jb20wHhcNMTMxMTE1MDM0MjQyWhcNMjMxMTEzMDM0MjQyWjCBozELMAkG
+A1UEBhMCVVMxCzAJBgNVBAgTAkNBMRUwEwYDVQQHEwxTYW5GcmFuY2lzY28xEjAQ
+BgNVBAoTCU9wZW5zdGFjazEPMA0GA1UECxMGVlBOYWFTMRQwEgYDVQQDEwtlYXN0
+LXNlcnZlcjENMAsGA1UEKRMEZWFzdDEmMCQGCSqGSIb3DQEJARYXcmFqZXNoLm1s
+aXN0c0BnbWFpbC5jb20wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANdtlOnJ
+v47OlSicqhww0isi9uOTB1lT02qCxJxu+FL4Dv1/ENMf0mqrR42F5yCWglWzBP9S
+EJcXTwZzQdBv5/BL96KYPBaqG+xGoUm6gwEP4O2VNcdF23ekNycvzaOBKsLZu9JN
+wqAvTRgizQAgDcoRAiqVPPbQxBiXSFwrXwLpAgMBAAGjggF3MIIBczAJBgNVHRME
+AjAAMBEGCWCGSAGG+EIBAQQEAwIGQDA0BglghkgBhvhCAQ0EJxYlRWFzeS1SU0Eg
+R2VuZXJhdGVkIFNlcnZlciBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQU37UvjQhjtt1Z
+iRbMG+sYSrzSmxcwgdsGA1UdIwSB0zCB0IAUrV7HQ2R7DxEgPMc6EdsA1cpKB7+h
+gaykgakwgaYxCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEVMBMGA1UEBxMMU2Fu
+RnJhbmNpc2NvMRIwEAYDVQQKEwlPcGVuc3RhY2sxDzANBgNVBAsTBlZQTmFhUzES
+MBAGA1UEAxMJU1NMVlBOLUNBMRIwEAYDVQQpEwlTU0xWUE4tQ0ExJjAkBgkqhkiG
+9w0BCQEWF3JhamVzaC5tbGlzdHNAZ21haWwuY29tggkApFae6Xc0meswEwYDVR0l
+BAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBBQUAA4GBABhb
+J4iiYS/HNoP4xZzHB49tASLlZpEKZPpBqoEI2B6/Sp+6TTpMJos3JjKwetsL7/4U
+Slk4fa+8+5/buFewgYU/Eq2ZM4lJz9X9YsP580FbUyrupL8udRbF4j7BD9nCbMs6
+cxx0EjU/rcdxaWsHgISCunSwVZP107Kg0wY5JriE
+-----END CERTIFICATE-----
